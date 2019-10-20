@@ -27,10 +27,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
-                                <connections>
-                                    <action selector="summary:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="Q63-zs-MDs"/>
-                                    <action selector="weatherType:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="VRY-5E-7iN"/>
-                                </connections>
                             </textField>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CqL-Zi-YfR">
                                 <rect key="frame" x="224" y="304" width="162" height="34"/>
@@ -127,9 +123,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="Previous"/>
                                 <connections>
-                                    <action selector="nextButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dhF-98-ykf"/>
-                                    <action selector="prevButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e8T-rc-tyJ"/>
-                                    <action selector="previousClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wbu-Mm-kxX"/>
+                                    <action selector="prevButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JPl-ao-jBb"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hsx-XC-TNf">
@@ -165,7 +159,7 @@
                         <outlet property="minTemp" destination="Nf0-v1-VQF" id="fOZ-4h-Xw4"/>
                         <outlet property="nexButton" destination="Hsx-XC-TNf" id="618-rX-HlG"/>
                         <outlet property="pressure" destination="RAl-1u-U19" id="AHM-eS-K8z"/>
-                        <outlet property="previousButton" destination="Qep-Ni-uNw" id="YvT-8y-ODm"/>
+                        <outlet property="previousButton" destination="Qep-Ni-uNw" id="Q0v-h5-xQt"/>
                         <outlet property="rainfall" destination="68G-U8-C4o" id="NRB-lT-J8R"/>
                         <outlet property="time" destination="0Cu-Rt-jiM" id="MUb-UY-AL8"/>
                         <outlet property="weatherType" destination="XNg-dh-X20" id="phi-SZ-Vh0"/>
