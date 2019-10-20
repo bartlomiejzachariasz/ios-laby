@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9821DBE123579E9700010940 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9821DBE023579E9700010940 /* AppDelegate.swift */; };
+		9821DBE323579E9700010940 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9821DBE223579E9700010940 /* SceneDelegate.swift */; };
+		9821DBE523579E9700010940 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9821DBE423579E9700010940 /* ViewController.swift */; };
+		9821DBE823579E9800010940 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9821DBE623579E9800010940 /* Main.storyboard */; };
+		9821DBEA23579E9B00010940 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9821DBE923579E9B00010940 /* Assets.xcassets */; };
+		9821DBED23579E9B00010940 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9821DBEB23579E9B00010940 /* LaunchScreen.storyboard */; };
+		9821DBF823579E9C00010940 /* pogodaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9821DBF723579E9C00010940 /* pogodaTests.swift */; };
+		9821DC0323579E9C00010940 /* pogodaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9821DC0223579E9C00010940 /* pogodaUITests.swift */; };
+		9821DC1123579EDA00010940 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9821DC1023579EDA00010940 /* Weather.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9821DBF423579E9C00010940 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9821DBD523579E9700010940 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9821DBDC23579E9700010940;
+			remoteInfo = pogoda;
+		};
+		9821DBFF23579E9C00010940 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9821DBD523579E9700010940 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9821DBDC23579E9700010940;
+			remoteInfo = pogoda;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9821DBDD23579E9700010940 /* pogoda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pogoda.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9821DBE023579E9700010940 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9821DBE223579E9700010940 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9821DBE423579E9700010940 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9821DBE723579E9800010940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9821DBE923579E9B00010940 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9821DBEC23579E9B00010940 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9821DBEE23579E9B00010940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9821DBF323579E9C00010940 /* pogodaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pogodaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9821DBF723579E9C00010940 /* pogodaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pogodaTests.swift; sourceTree = "<group>"; };
+		9821DBF923579E9C00010940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9821DBFE23579E9C00010940 /* pogodaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pogodaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9821DC0223579E9C00010940 /* pogodaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pogodaUITests.swift; sourceTree = "<group>"; };
+		9821DC0423579E9C00010940 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9821DC1023579EDA00010940 /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9821DBDA23579E9700010940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9821DBF023579E9C00010940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9821DBFB23579E9C00010940 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9821DBD423579E9700010940 = {
+			isa = PBXGroup;
+			children = (
+				9821DBDF23579E9700010940 /* pogoda */,
+				9821DBF623579E9C00010940 /* pogodaTests */,
+				9821DC0123579E9C00010940 /* pogodaUITests */,
+				9821DBDE23579E9700010940 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9821DBDE23579E9700010940 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9821DBDD23579E9700010940 /* pogoda.app */,
+				9821DBF323579E9C00010940 /* pogodaTests.xctest */,
+				9821DBFE23579E9C00010940 /* pogodaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9821DBDF23579E9700010940 /* pogoda */ = {
+			isa = PBXGroup;
+			children = (
+				9821DBE023579E9700010940 /* AppDelegate.swift */,
+				9821DBE223579E9700010940 /* SceneDelegate.swift */,
+				9821DBE423579E9700010940 /* ViewController.swift */,
+				9821DBE623579E9800010940 /* Main.storyboard */,
+				9821DBE923579E9B00010940 /* Assets.xcassets */,
+				9821DBEB23579E9B00010940 /* LaunchScreen.storyboard */,
+				9821DBEE23579E9B00010940 /* Info.plist */,
+				9821DC1023579EDA00010940 /* Weather.swift */,
+			);
+			path = pogoda;
+			sourceTree = "<group>";
+		};
+		9821DBF623579E9C00010940 /* pogodaTests */ = {
+			isa = PBXGroup;
+			children = (
+				9821DBF723579E9C00010940 /* pogodaTests.swift */,
+				9821DBF923579E9C00010940 /* Info.plist */,
+			);
+			path = pogodaTests;
+			sourceTree = "<group>";
+		};
+		9821DC0123579E9C00010940 /* pogodaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9821DC0223579E9C00010940 /* pogodaUITests.swift */,
+				9821DC0423579E9C00010940 /* Info.plist */,
+			);
+			path = pogodaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9821DBDC23579E9700010940 /* pogoda */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9821DC0723579E9C00010940 /* Build configuration list for PBXNativeTarget "pogoda" */;
+			buildPhases = (
+				9821DBD923579E9700010940 /* Sources */,
+				9821DBDA23579E9700010940 /* Frameworks */,
+				9821DBDB23579E9700010940 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pogoda;
+			productName = pogoda;
+			productReference = 9821DBDD23579E9700010940 /* pogoda.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9821DBF223579E9C00010940 /* pogodaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9821DC0A23579E9C00010940 /* Build configuration list for PBXNativeTarget "pogodaTests" */;
+			buildPhases = (
+				9821DBEF23579E9C00010940 /* Sources */,
+				9821DBF023579E9C00010940 /* Frameworks */,
+				9821DBF123579E9C00010940 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9821DBF523579E9C00010940 /* PBXTargetDependency */,
+			);
+			name = pogodaTests;
+			productName = pogodaTests;
+			productReference = 9821DBF323579E9C00010940 /* pogodaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9821DBFD23579E9C00010940 /* pogodaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9821DC0D23579E9C00010940 /* Build configuration list for PBXNativeTarget "pogodaUITests" */;
+			buildPhases = (
+				9821DBFA23579E9C00010940 /* Sources */,
+				9821DBFB23579E9C00010940 /* Frameworks */,
+				9821DBFC23579E9C00010940 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9821DC0023579E9C00010940 /* PBXTargetDependency */,
+			);
+			name = pogodaUITests;
+			productName = pogodaUITests;
+			productReference = 9821DBFE23579E9C00010940 /* pogodaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9821DBD523579E9700010940 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Bartłomiej Zachariasz";
+				TargetAttributes = {
+					9821DBDC23579E9700010940 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					9821DBF223579E9C00010940 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 9821DBDC23579E9700010940;
+					};
+					9821DBFD23579E9C00010940 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 9821DBDC23579E9700010940;
+					};
+				};
+			};
+			buildConfigurationList = 9821DBD823579E9700010940 /* Build configuration list for PBXProject "pogoda" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9821DBD423579E9700010940;
+			productRefGroup = 9821DBDE23579E9700010940 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9821DBDC23579E9700010940 /* pogoda */,
+				9821DBF223579E9C00010940 /* pogodaTests */,
+				9821DBFD23579E9C00010940 /* pogodaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9821DBDB23579E9700010940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9821DBED23579E9B00010940 /* LaunchScreen.storyboard in Resources */,
+				9821DBEA23579E9B00010940 /* Assets.xcassets in Resources */,
+				9821DBE823579E9800010940 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9821DBF123579E9C00010940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9821DBFC23579E9C00010940 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9821DBD923579E9700010940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9821DC1123579EDA00010940 /* Weather.swift in Sources */,
+				9821DBE523579E9700010940 /* ViewController.swift in Sources */,
+				9821DBE123579E9700010940 /* AppDelegate.swift in Sources */,
+				9821DBE323579E9700010940 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9821DBEF23579E9C00010940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9821DBF823579E9C00010940 /* pogodaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9821DBFA23579E9C00010940 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9821DC0323579E9C00010940 /* pogodaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9821DBF523579E9C00010940 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9821DBDC23579E9700010940 /* pogoda */;
+			targetProxy = 9821DBF423579E9C00010940 /* PBXContainerItemProxy */;
+		};
+		9821DC0023579E9C00010940 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9821DBDC23579E9700010940 /* pogoda */;
+			targetProxy = 9821DBFF23579E9C00010940 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9821DBE623579E9800010940 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9821DBE723579E9800010940 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9821DBEB23579E9B00010940 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9821DBEC23579E9B00010940 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9821DC0523579E9C00010940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9821DC0623579E9C00010940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9821DC0823579E9C00010940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7PNKHALU8;
+				INFOPLIST_FILE = pogoda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.edu.agh.pogoda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9821DC0923579E9C00010940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7PNKHALU8;
+				INFOPLIST_FILE = pogoda/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.edu.agh.pogoda;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9821DC0B23579E9C00010940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7PNKHALU8;
+				INFOPLIST_FILE = pogodaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.edu.agh.pogodaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pogoda.app/pogoda";
+			};
+			name = Debug;
+		};
+		9821DC0C23579E9C00010940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7PNKHALU8;
+				INFOPLIST_FILE = pogodaTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.edu.agh.pogodaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pogoda.app/pogoda";
+			};
+			name = Release;
+		};
+		9821DC0E23579E9C00010940 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7PNKHALU8;
+				INFOPLIST_FILE = pogodaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.edu.agh.pogodaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pogoda;
+			};
+			name = Debug;
+		};
+		9821DC0F23579E9C00010940 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T7PNKHALU8;
+				INFOPLIST_FILE = pogodaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.edu.agh.pogodaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = pogoda;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9821DBD823579E9700010940 /* Build configuration list for PBXProject "pogoda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9821DC0523579E9C00010940 /* Debug */,
+				9821DC0623579E9C00010940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9821DC0723579E9C00010940 /* Build configuration list for PBXNativeTarget "pogoda" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9821DC0823579E9C00010940 /* Debug */,
+				9821DC0923579E9C00010940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9821DC0A23579E9C00010940 /* Build configuration list for PBXNativeTarget "pogodaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9821DC0B23579E9C00010940 /* Debug */,
+				9821DC0C23579E9C00010940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9821DC0D23579E9C00010940 /* Build configuration list for PBXNativeTarget "pogodaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9821DC0E23579E9C00010940 /* Debug */,
+				9821DC0F23579E9C00010940 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9821DBD523579E9700010940 /* Project object */;
+}
