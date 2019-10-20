@@ -41,7 +41,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         
-        Weather.getData(latitude: "64.128288", longitude: "-21.827774", completion:{ (results:[Weather]?) in
+        Weather.getData(latitude: "19.9449799", longitude: "50.0646501", completion:{ (results:[Weather]?) in
             
             if let weatherData = results {
                 self.data = weatherData
