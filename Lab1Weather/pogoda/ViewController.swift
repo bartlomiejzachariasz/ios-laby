@@ -47,11 +47,23 @@ class ViewController: UIViewController {
                 self.data = weatherData
                 
                 DispatchQueue.main.async {
-                    self.reloadData(i: self.i)
+                    self.viewRefresh(i: self.i)
                 }
                 
             }
         })
+    }
+    
+    func viewRefresh(i: Int) {
+        self.convertUnixTimeToDate(unixtimeInterval: self.data[i].timeStamp)
+        self.weatherType.text = self.data[i].weatherType
+        self.maxTemp.text = String(self.data[i].maxTemp)
+        self.rainfall.text = String(self.data[i].rainfall)
+        self.pressure.text = String(self.data[i].pressure)
+        self.minTemp.text = String(self.data[i].minTemp)
+        self.windSpeed.text = String(self.data[i].windSpeed)
+        self.icon.image = UIImage(named: self.data[i].icon)
+        self.windBearing.text = String(self.data[i].windDirection)
     }
     
     @IBAction func nextButton(_ sender: Any) {
@@ -70,19 +82,9 @@ class ViewController: UIViewController {
     }
     
     
-    func reloadData(i: Int) {
-        self.displayDate(unixtimeInterval: self.data[i].timeStamp)
-        self.weatherType.text = self.data[i].weatherType
-        self.maxTemp.text = String(self.data[i].maxTemp)
-        self.rainfall.text = String(self.data[i].rainfall)
-        self.pressure.text = String(self.data[i].pressure)
-        self.minTemp.text = String(self.data[i].minTemp)
-        self.windSpeed.text = String(self.data[i].windSpeed)
-        self.icon.image = UIImage(named: self.data[i].icon)
-        self.windBearing.text = String(self.data[i].windDirection)
-    }
+
     
-    func displayDate(unixtimeInterval: Double) {
+    func convertUnixTimeToDate(unixtimeInterval: Double) {
         let date = Date(timeIntervalSince1970: unixtimeInterval)
         let dateFormatter = DateFormatter()
         dateFormatter.locale = NSLocale.current

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "3EA67E6D-780A-4AF0-9559-756FA0B37046"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "376104F5-DC2E-4846-B070-8DE04AC76DBD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Lab2Weather/DetailViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
+            landmarkName = "reloadView(dayIndex:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "69758A84-858B-4900-9099-F3553432D3F3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Lab2Weather/MasterViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "getLocationWeather(cityName:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "69758A84-858B-4900-9099-F3553432D3F3 - 6bfd7d1dea31d58e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Swift.Array&lt;Lab2Weather.Weather&gt;&gt;) -&gt; () in closure #1 (Swift.Optional&lt;Swift.Array&lt;__C.CLPlacemark&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Lab2Weather.MasterViewController.getLocationWeather(cityName: Swift.String) -&gt; ()"
+                  moduleName = "Lab2Weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bartek/Desktop/POGODA_DLA_BOGACZY/Lab2Weather/Lab2Weather/Lab2Weather/MasterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "430">
+               </Location>
+               <Location
+                  uuid = "69758A84-858B-4900-9099-F3553432D3F3 - 4ab841743bb539ba"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Optional&lt;Swift.Array&lt;Lab2Weather.Weather&gt;&gt;) -&gt; () in closure #1 (Swift.Optional&lt;Swift.Array&lt;__C.CLPlacemark&gt;&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in Lab2Weather.MasterViewController.getLocationWeather(cityName: Swift.String) -&gt; ()"
+                  moduleName = "Lab2Weather"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/bartek/Desktop/POGODA_DLA_BOGACZY/Lab2Weather/Lab2Weather/Lab2Weather/MasterViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "58"
+                  endingLineNumber = "58"
+                  offsetFromSymbolStart = "39">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
