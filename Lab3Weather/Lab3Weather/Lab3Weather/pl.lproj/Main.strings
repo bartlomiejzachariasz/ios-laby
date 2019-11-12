@@ -1,0 +1,57 @@
+
+/* Class = "UIButton"; normalTitle = "Next day"; ObjectID = "2AJ-rP-CFa"; */
+"2AJ-rP-CFa.normalTitle" = "Next day";
+
+/* Class = "UIButton"; normalTitle = "Previous day"; ObjectID = "580-VB-qng"; */
+"580-VB-qng.normalTitle" = "Previous day";
+
+/* Class = "UITableViewController"; title = "Master"; ObjectID = "7bK-jq-Zjz"; */
+"7bK-jq-Zjz.title" = "Master";
+
+/* Class = "UILabel"; text = "Subtitle"; ObjectID = "8RP-fp-P1Y"; */
+"8RP-fp-P1Y.text" = "Subtitle";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "Arm-wq-HPj"; */
+"Arm-wq-HPj.text" = "Title";
+
+/* Class = "UILabel"; text = "Rainfall"; ObjectID = "CYa-xt-xA8"; */
+"CYa-xt-xA8.text" = "Rainfall";
+
+/* Class = "UIViewController"; title = "Detail"; ObjectID = "JEX-9P-axG"; */
+"JEX-9P-axG.title" = "Detail";
+
+/* Class = "UILabel"; text = "Wind direction"; ObjectID = "NRS-3b-CSQ"; */
+"NRS-3b-CSQ.text" = "Wind direction";
+
+/* Class = "UILabel"; text = "Max temperature"; ObjectID = "PJn-aV-moW"; */
+"PJn-aV-moW.text" = "Max temperature";
+
+/* Class = "UINavigationController"; title = "Master"; ObjectID = "RMx-3f-FxP"; */
+"RMx-3f-FxP.title" = "Master";
+
+/* Class = "UILabel"; text = "Min temperature"; ObjectID = "RaA-7g-5FL"; */
+"RaA-7g-5FL.text" = "Min temperature";
+
+/* Class = "UINavigationItem"; title = "Bartłomiej Zachariasz"; ObjectID = "Zdf-7t-Un8"; */
+"Zdf-7t-Un8.title" = "Bartłomiej Zachariasz";
+
+/* Class = "UISearchBar"; placeholder = "Type the name of the city"; ObjectID = "ZlO-1M-bcZ"; */
+"ZlO-1M-bcZ.placeholder" = "Type the name of the city";
+
+/* Class = "UILabel"; text = "Date"; ObjectID = "fdW-OG-65I"; */
+"fdW-OG-65I.text" = "Date";
+
+/* Class = "UILabel"; text = "Wind speed"; ObjectID = "iKi-8D-ZzZ"; */
+"iKi-8D-ZzZ.text" = "Wind speed";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "jGy-vT-bP6"; */
+"jGy-vT-bP6.text" = "Label";
+
+/* Class = "UINavigationItem"; title = "Bartłomiej Zachariasz"; ObjectID = "mOI-FS-AaM"; */
+"mOI-FS-AaM.title" = "Bartłomiej Zachariasz";
+
+/* Class = "UITextField"; placeholder = "TESTOWE"; ObjectID = "nNm-dl-jCi"; */
+"nNm-dl-jCi.placeholder" = "TESTOWE";
+
+/* Class = "UILabel"; text = "Pressure"; ObjectID = "ouR-Mk-KIt"; */
+"ouR-Mk-KIt.text" = "Pressure";
